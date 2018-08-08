@@ -1,14 +1,22 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import {NativeRouter, Switch, Router} from 'react-router-native';
+
+import HomePage from '../AwesomeProject/app/src/Home';
+import Table from "../AwesomeProject/app/src/Table";
 
 export default class App extends React.Component {
   render() {
     return (
+      <NativeRouter>
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+      <Switch>
+        <Route exact path="/" Component={HomePage} />
+        <Route exact path="/products" Component={Table} />
+        </Switch>
+      <HomePage />
       </View>
+      <NativeRouter>
     );
   }
 }
