@@ -2,13 +2,9 @@ import React from 'react';
 import {View, Text, Button } from 'react-native'
 
 
-export default class HomePage extends React.Component {
-    render() {
-        return (
+export default ({ history }) => (
             <View>
                 <Text>This is the home page.</Text>
-                <Button title="change page" onPress={() => 5} /> 
+                <Button title="change page" onPress={() => history.push("/table")} /> 
             </View>
-        )
-    }
-}
+        );
