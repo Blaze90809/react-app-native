@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380ec8d7-beb0-4705-94a9-edec996724dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/Home.js" afterPath="$PROJECT_DIR$/app/src/Home.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/Table.js" afterPath="$PROJECT_DIR$/app/src/Table.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
