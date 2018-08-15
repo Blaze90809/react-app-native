@@ -10,7 +10,7 @@ export default ({ history }) => (
         <View style={{flexDirection: 'row', alignSelf: 'stretch'}}>
        
         </View>
-        <Toolbar leftElement="menu" onLeftElementPress={() => this.props.navigation.navigate('DrawerOpen')}/>
+        <Toolbar style={{top: 10}} leftElement="menu" onLeftElementPress={() => this.props.navigation.navigate('DrawerOpen')}/>
         <View style={{flex: 0.3, justifyContent: 'center'}}>
             <Text>Hello</Text>
             <Text>This is the home page.</Text>
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'salmon',
-        top: 0,
+        top: 20,
         backgroundColor: '#fff',
         alignItems: 'center',
     },
